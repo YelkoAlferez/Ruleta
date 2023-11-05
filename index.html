@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="ca">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ruleta</title>
+    <script src="./js/ruleta.js"></script>
+    <script src="./js/script.js"></script>
+    <link rel="stylesheet" href="./css/ruleta.css">
+</head>
+<!-- El codi comentat és el truc perquè sempre surti un número i un color concret perquè puguis testejar la teva aplicació -->
+<!--<body class="back" onload="start('27 NEGRE')">--> 
+<body class="back" onload="start()">
+    <img style="width:20em;height:auto;float:left;" src="./css/5884a9754549c0b81ec05477.png">
+    <div class="tauler">
+        <img class="marker" src="./img/punter.png">
+        <img style="margin-top: 5px; transition: none 0s ease 0s; transform: rotate(21deg);" class="wheel" src="./img/ruleta.png">
+        <div class="spin">
+        <img class="arrow" src="./css/DYvekih.gif">
+        <button class="button" onclick="ferAposta()"><img class="moneda1" src="./img/33740.png"> SPIN <img class="moneda2" src="./img/33740.png"></button>
+        <img class="arrow2" src="./css/DYvekih.gif">
+        </div>
+    </div>
+</body>
+</html>
